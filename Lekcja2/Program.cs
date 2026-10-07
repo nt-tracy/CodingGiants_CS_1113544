@@ -70,11 +70,6 @@ class Program
         // i wyświetlić
 
 
-
-
-
-
-
         //#4 Przepełnienie zmiennych, czyli jak komputer "rezerwuje" miejsce w pamięci
         //To tak, jakbyśmy chcieli zrobić herbatę na płaskim talerzu - wyleje się
 
