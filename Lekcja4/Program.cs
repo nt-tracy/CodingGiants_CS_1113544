@@ -54,7 +54,7 @@ class Program
 
         Console.WriteLine();
         Console.WriteLine("Ile masz lat: ");
-        int age = int.Parse(Console.ReadLine());
+        int age = int.Parse(Console.ReadLine() ?? string.Empty);
         bool czyPelnoletni = age >= 18;
         Console.WriteLine("Czy użytkownik pełnoletni: " + czyPelnoletni);
 
@@ -68,10 +68,10 @@ class Program
 
         Console.WriteLine("Zadanie z filmami: ");
         Console.WriteLine("Podaj wiek: ");
-        int age2 = int.Parse(Console.ReadLine());
+        int age2 = int.Parse(Console.ReadLine() ?? string.Empty);
 
         Console.WriteLine("Ile masz pieniędzy? ");
-        decimal pieniadze = decimal.Parse(Console.ReadLine());
+        decimal pieniadze = decimal.Parse(Console.ReadLine() ?? string.Empty);
 
         //przykład z Harrym Potterem
         bool harryPotter = (age2 >= 13 && pieniadze >= 21);
