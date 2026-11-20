@@ -76,7 +76,7 @@ class Program
             Console.WriteLine("NIE MASZ PASKU HAHAHAHHAHAH!");
         }
 
-        int choice = int.Parse(Console.ReadLine());
+        int choice = int.Parse(Console.ReadLine() ?? string.Empty);
         if (choice == 1)
         {
             Console.WriteLine("System operacyjny TempleeOS jest najciekawszym systemem");
